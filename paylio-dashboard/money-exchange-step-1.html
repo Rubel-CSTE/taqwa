@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paylio - Money Transfer and Online Payments Dashboard HTML Template</title>
+
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/plugin/apexcharts.css">
+    <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="assets/css/arafat-font.css">
+    <link rel="stylesheet" href="assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div class="preloader" id="preloader"></div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section body-collapse">
+        <div class="overlay">
+            <div class="container-fruid">
+                <div class="row d-flex header-area">
+                    <div class="navbar-area d-flex align-items-center justify-content-between">
+                        <div class="sidebar-icon">
+                            <img src="assets/images/icon/menu.png" alt="icon">
+                        </div>
+                        <form action="#" class="flex-fill">
+                            <div class="form-group d-flex align-items-center">
+                                <img src="assets/images/icon/search.png" alt="icon">
+                                <input type="text" placeholder="Type to search...">
+                            </div>
+                        </form>
+                        <div class="dashboard-nav">
+                            <div class="single-item language-area">
+                                <div class="language-btn">
+                                    <img src="assets/images/icon/lang.png" alt="icon">
+                                </div>
+                                <ul class="main-area language-content">
+                                    <li>English</li>
+                                    <li>Hindi</li>
+                                    <li class="active">English (US)</li>
+                                    <li>Japanese</li>
+                                    <li>Kannada</li>
+                                    <li>Lithuanian</li>
+                                </ul>
+                            </div>
+                            <div class="single-item notifications-area">
+                                <div class="notifications-btn">
+                                    <img src="assets/images/icon/bell.png" class="bell-icon" alt="icon">
+                                </div>
+                                <div class="main-area notifications-content">
+                                    <div class="head-area d-flex justify-content-between">
+                                        <h5>Notifications</h5>
+                                        <span class="mdr">4</span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/user-1.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">You received a payment of <b>$134.00</b> from <b>Anna
+                                                            Green</b></p>
+                                                    <p class="mdr time-area">09.39AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/user-2.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr"><b>James Deed</b> requested a payment of
+                                                        <b>£890.00</b>
+                                                    </p>
+                                                    <p class="mdr time-area">08.09AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/master-card.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">Your new payment method has beed added successfully
+                                                    </p>
+                                                    <p class="mdr time-area">09.39AM</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="d-flex">
+                                                <div class="img-area">
+                                                    <img src="assets/images/user-3.png" class="max-un" alt="image">
+                                                </div>
+                                                <div class="text-area">
+                                                    <p class="mdr">You received a payment of <b>$250.00</b> from Goerge
+                                                        Michael</p>
+                                                    <p class="mdr time-area">Yesterday</p>
+                                                </div>
+                                            </a>
+                                            <i class="fa-solid fa-caret-right"></i>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-item user-area">
+                                <div class="profile-area d-flex align-items-center">
+                                    <span class="user-profile">
+                                        <img src="assets/images/avatar.png" alt="User">
+                                    </span>
+                                    <i class="fa-solid fa-sort-down"></i>
+                                </div>
+                                <div class="main-area user-content">
+                                    <div class="head-area d-flex align-items-center">
+                                        <div class="profile-img">
+                                            <img src="assets/images/avatar-2.png" alt="User">
+                                        </div>
+                                        <div class="profile-head">
+                                            <a href="javascript:void(0)">
+                                                <h5>Kevin Martin</h5>
+                                            </a>
+                                            <p class="wallet-id">Wallet ID: 6264849965</p>
+                                        </div>
+                                    </div>
+                                    <ul>
+                                        <li class="border-area">
+                                            <a href="account.html"><i class="fas fa-cog"></i>Settings</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)"><i class="fas fa-sign-out"></i>Logout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-wrapper">
+                        <div class="close-btn d-block d-xl-none">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <div class="sidebar-logo">
+                            <a href="dashboard.html"><img src="assets/images/logo.png" alt="logo"></a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="dashboard.html">
+                                    <img src="assets/images/icon/dashboard.png" alt="Dashboard"> <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="transactions.html">
+                                    <img src="assets/images/icon/transactions.png" alt="Transactions"> <span>Transactions</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pay.html">
+                                    <img src="assets/images/icon/pay.png" alt="Pay"> <span>Pay</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="receive-step-1.html">
+                                    <img src="assets/images/icon/receive.png" alt="Receive"> <span>Receive</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="money-exchange.html">
+                                    <img src="assets/images/icon/exchange.png" alt="Exchange"> <span>Exchange</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="recipients.html">
+                                    <img src="assets/images/icon/recipients.png" alt="Recipients"> <span>Recipients</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="crypto.html">
+                                    <img src="assets/images/icon/crypto.png" alt="Crypto"> <span>Crypto</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="deposit-money.html">
+                                    <img src="assets/images/icon/deposit.png" alt="Deposit"> <span>Deposit Money</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="withdraw-money-step-1.html">
+                                    <img src="assets/images/icon/withdraw.png" alt="Withdraw"> <span>Withdraw Money</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="bottom-item">
+                            <li>
+                                <a href="account.html">
+                                    <img src="assets/images/icon/account.png" alt="Account"> <span>Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/images/icon/support.png" alt="Support"> <span>Support</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0)">
+                                    <img src="assets/images/icon/quit.png" alt="Quit"> <span>Quit</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pt-120">
+                            <div class="invite-now">
+                                <div class="img-area">
+                                    <img src="assets/images/invite-now-illus.png" alt="Image">
+                                </div>
+                                <p>Invite your friend and get $25</p>
+                                <a href="javascript:void(0)" class="cmn-btn">Invite Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <!-- Dashboard Section start -->
+    <section class="dashboard-section body-collapse pay step exchange">
+        <div class="overlay pt-120">
+            <div class="container-fruid">
+                <div class="main-content">
+                    <div class="head-area d-flex align-items-center justify-content-between">
+                        <h4>Money Exchange</h4>
+                        <div class="icon-area">
+                            <img src="assets/images/icon/support-icon.png" alt="icon">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-7 col-lg-6">
+                            <div class="choose-recipient">
+                                <div class="step-area">
+                                    <span class="mdr">Step 1 of 3</span>
+                                    <h5>Choose Recipient</h5>
+                                </div>
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item recipient-list" role="presentation">
+                                        <button class="nav-link my-recipients active" id="recipients-tab" data-bs-toggle="tab"
+                                            data-bs-target="#recipients" type="button" role="tab" aria-controls="recipients"
+                                            aria-selected="true">
+                                            <span class="icon-area">
+                                                <i class="icon-e-plus"></i>
+                                            </span>
+                                            <span>My Recipients</span>
+                                        </button>
+                                    </li>
+                                    <li class="nav-item recipient-list" role="presentation">
+                                        <button class="nav-link my-recipients" id="recent-tab" data-bs-toggle="tab"
+                                            data-bs-target="#recent" type="button" role="tab" aria-controls="recent"
+                                            aria-selected="false">
+                                            <span class="icon-area">
+                                                <i class="icon-f-user"></i>
+                                            </span>
+                                            <span>Most Recent</span>
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="recipients" role="tabpanel" aria-labelledby="recipients-tab">
+                                        <div class="section-head">
+                                            <h5>Add a new recipient</h5>
+                                            <p>This information must be accurate or your transfer will be delayed.</p>
+                                        </div>
+                                        <form action="#">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="recipientsfname">First Name</label>
+                                                        <input type="text" id="recipientsfname" placeholder="Dana">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="recipientslname">Last Name</label>
+                                                        <input type="text" id="recipientslname" placeholder="Patton">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="recipientslAddress">Address Line 1 (Option)</label>
+                                                        <input type="text" id="recipientslAddress" placeholder="Address Line 1">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="recipientslCity">City/Town</label>
+                                                        <input type="text" id="recipientslCity" placeholder="City/Town">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="recipientslCode">Postcode</label>
+                                                        <input type="text" id="recipientslCode" placeholder="Postcode">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="recipientsphone">Phone</label>
+                                                        <div class="select-area d-flex align-items-center">
+                                                            <select>
+                                                                <option value="1">+1</option>
+                                                                <option value="2">+2</option>
+                                                                <option value="3">+3</option>
+                                                            </select>
+                                                            <input type="text" id="recipientsphone" placeholder="(070) 4567-8800">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="recipientsemail">Email Address</label>
+                                                        <input type="text" id="recipientsemail" placeholder="Email Address">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="bankname">Bank Name</label>
+                                                        <input type="text" id="bankname" placeholder="Bank Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="branchname">Branch Name</label>
+                                                        <input type="text" id="branchname" placeholder="Branch Name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="accountnumber">Account number</label>
+                                                        <input type="text" id="accountnumber" placeholder="Account number">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="sendingreason">Reason for Sending</label>
+                                                        <input type="text" id="sendingreason" placeholder="Reason for Sending">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="footer-area mt-40">
+                                                        <a href="money-exchange.html">Previous Step</a>
+                                                        <a href="money-exchange-step-2.html" class="active">Next</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="recent" role="tabpanel" aria-labelledby="recent-tab">
+                                        <div class="user-select">
+                                            <div class="single-user">
+                                                <div class="left d-flex align-items-center">
+                                                    <div class="img-area">
+                                                        <img src="assets/images/profile-1.png" alt="image">
+                                                    </div>
+                                                    <div class="text-area">
+                                                        <p>Herman Tran</p>
+                                                        <span class="mdr">Herman35@gmail.com</span>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <a href="javascript:void(0)">Choose</a>
+                                                </div>
+                                            </div>
+                                            <div class="single-user">
+                                                <div class="left d-flex align-items-center">
+                                                    <div class="img-area">
+                                                        <img src="assets/images/profile-2.png" alt="image">
+                                                    </div>
+                                                    <div class="text-area">
+                                                        <p>Morris Lucas</p>
+                                                        <span class="mdr">Morris22@gmail.com</span>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <a href="javascript:void(0)">Choose</a>
+                                                </div>
+                                            </div>
+                                            <div class="single-user">
+                                                <div class="left d-flex align-items-center">
+                                                    <div class="img-area">
+                                                        <img src="assets/images/profile-3.png" alt="image">
+                                                    </div>
+                                                    <div class="text-area">
+                                                        <p>Willard Lyons</p>
+                                                        <span class="mdr">Willard99@gmail.com</span>
+                                                    </div>
+                                                </div>
+                                                <div class="right">
+                                                    <a href="javascript:void(0)">Choose</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="footer-area mt-40">
+                                                <a href="money-exchange.html">Previous Step</a>
+                                                <a href="money-exchange-step-2.html" class="active">Next</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="side-area">
+                                <p>Recipient gets</p>
+                                <div class="title-area">
+                                    <h5>Bank Deposit</h5>
+                                    <ul class="flag-area">
+                                        <li>
+                                            <span class="icon-area">
+                                                <img src="assets/images/icon/flag-usa.png" alt="icon">
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span class="icon-area">
+                                                <img src="assets/images/icon/flag-bd.png" alt="icon">
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="deposit-details">
+                                    <li>
+                                        <span>You Send</span>
+                                        <b>400.00 GBP</b>
+                                    </li>
+                                    <li>
+                                        <span>They get</span>
+                                        <b>45433.03 BDT</b>
+                                    </li>
+                                    <li>
+                                        <span>Exchange rate</span>
+                                        <b>1 GBP = 113.58257 BDT</b>
+                                    </li>
+                                    <li>
+                                        <span>Our fee</span>
+                                        <b>+0.99 GBP</b>
+                                    </li>
+                                </ul>
+                                <ul class="deposit-details">
+                                    <li>
+                                        <span>Total to pay</span>
+                                        <b>400.99 GBP</b>
+                                    </li>
+                                    <li>
+                                        <span>They receive</span>
+                                        <b>45433.03 BDT</b>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section end -->
+
+    <!--==================================================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/plugin/apexcharts.js"></script>
+    <script src="assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugin/waypoint.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
